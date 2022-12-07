@@ -9,6 +9,8 @@ import Dashboard from './Dashboard';
 import User from './User';
 import Product from './Product';
 import Createuser from './Createuser';
+import ViewUser from "./ViewUser";
+import UserEdit from "./UserEdit";
 
 function App() {
   return (
@@ -20,6 +22,8 @@ function App() {
         <Route path="/portal/users" element={<User />} />
         <Route path="/portal/users/create" element={<Createuser />} />
         <Route path="/portal/products" element={<Product />} />
+        <Route path="/portal/users/view/:id" element={<ViewUser />} />
+        <Route path="/portal/users/edit/:id" element={<UserEdit />} />
         </Route>
       </Routes>
     </BrowserRouter>

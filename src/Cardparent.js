@@ -46,7 +46,7 @@ function Cardparent() {
       ]
   return (
     <div className="container">
-      <div className="row mt-3">
+      <div className="row">
         {
           products.map((product)=>{
             return <Cardpro title={product.title} price={product.price}></Cardpro>

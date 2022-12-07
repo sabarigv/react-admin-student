@@ -4,3 +4,7 @@
   background-color: aqua;
   font-style: oblique;
 }
+
+.error-border{
+  border : 1px solid red !important;
+}
